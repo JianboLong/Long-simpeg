@@ -167,19 +167,4 @@ from .utils.solver_utils import (
 __author__ = "Jianbo Long"
 __license__ = "MIT"
 __copyright__ = "2024 -, Based on original SimPEG 0.22., https://simpeg.xyz"
-
-
-# Version
-try:
-    # - Released versions just tags:       0.8.0
-    # - GitHub commits add .dev#+hash:     0.8.1.dev4+g2785721
-    # - Uncommitted changes add timestamp: 0.8.1.dev4+g2785721.d20191022
-    from simpeg.version import version as __version__
-except ImportError:
-    # If it was not installed, then we don't know the version. We could throw a
-    # warning here, but this case *should* be rare. SimPEG should be
-    # installed properly!
-    from datetime import datetime
-
-    # __version__ = "unknown-" + datetime.today().strftime("%Y%m%d")
-    __version__ = "1.0.0"
+__version__ = "1.0.1"

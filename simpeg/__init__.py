@@ -164,9 +164,9 @@ from .utils.solver_utils import (
     SolverBiCG,
 )
 
-__author__ = "SimPEG Team"
+__author__ = "Jianbo Long"
 __license__ = "MIT"
-__copyright__ = "2013 - 2024, SimPEG Team, https://simpeg.xyz"
+__copyright__ = "2024 -, Based on original SimPEG 0.22., https://simpeg.xyz"
 
 
 # Version
@@ -181,4 +181,5 @@ except ImportError:
     # installed properly!
     from datetime import datetime
 
-    __version__ = "unknown-" + datetime.today().strftime("%Y%m%d")
+    # __version__ = "unknown-" + datetime.today().strftime("%Y%m%d")
+    __version__ = "1.0.0"

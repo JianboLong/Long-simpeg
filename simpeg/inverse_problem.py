@@ -13,9 +13,10 @@ from .utils import (
     validate_type,
     validate_ndarray_with_shape,
 )
-from . import __version__ as simpeg_version
+#from . import __version__ as simpeg_version
 from .utils.solver_utils import get_default_solver
 
+simpeg_version = __version__
 
 class BaseInvProblem:
     """BaseInvProblem(dmisfit, reg, opt)"""

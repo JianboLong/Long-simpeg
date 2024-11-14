@@ -167,4 +167,4 @@ from .utils.solver_utils import (
 __author__ = "Jianbo Long"
 __license__ = "MIT"
 __copyright__ = "2024 -, Based on original SimPEG 0.22., https://simpeg.xyz"
-__version__ = "1.0.1"
+__version__ = "1.0.3"
